@@ -9,9 +9,9 @@
 <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
 <link href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@200&display=swap" rel="stylesheet">
-<script src="https://ajax.googleapis.com/ajax/libs/d3js/5.16.0/d3.min.js"></script>
-<script type="text/javascript" src="script/script.js"></script>
 <link rel="icon" href="images/icon.png">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="script.js"></script>
 </head>
 
 <body>
@@ -19,7 +19,7 @@
 <header class="menu"><!-- メニューここから -->
 <a href="#"><i class="fab fa-facebook-square"></i></a>
 <a href="#instagram"><i class="fab fa-instagram"></i></a>
-<h1 id="top"><img class="logo-s" src="images/Ichiko-logo-s.png" alt="いち娘のロゴマークです。"></h1>
+<h1 id="top"><a href="index.html"><img class="logo-s" src="images/Ichiko-logo-s.png" alt="いち娘のロゴマークです。"></a></h1>
 <ul>
 <li><a href="#what-ichiko">いち娘とは</a></li>
 <li><a href="#recipe">レシピ</a></li>
@@ -33,11 +33,11 @@
 <img class="first-view" src="images/first-view.jpg" alt="いち娘サイトのファーストビュー画像です。">
 
 <div class="banner">
-<img src="images/banner.jpg" alt="お買い得情報のバナーです。" class="contents">
+<a href="#kounyuu"><img src="images/banner.jpg" alt="お買い得情報のバナーです。" class="contents"></a>
 </div>
 
 <!-- いち娘とは？ここから -->
-<div class="what-ichiko contents" id="what-ichiko">
+<div class="what-ichiko contents fadein" id="what-ichiko">
 <h2><img src="font-hannari/ichikotoha-moji.png" alt="いち娘とは"></h2>
 <p>いち娘は2020年に福岡県立川市で生まれた幻の苺。<br>
 改良を繰り返し、摘みたてのみずみずしさを届けられるよう繊細な温度管理と水分管理によって高品質の苺を栽培しています。<br>
@@ -49,7 +49,7 @@
 </div><!-- いち娘とは？ここまで -->
 
 <!--レシピここから -->
-<div class="recipe contents" id="recipe">
+<div class="recipe contents fadein" id="recipe">
 <h2><img src="font-hannari/recipe-moji.png" alt="レシピ"></h2>
 <p>贈り物にはもちろん、有機栽培だからこそできるアレンジ法をご紹介致します。</p>
 
@@ -88,7 +88,7 @@
 </div><!-- レシピのボックスここまで -->
 </div><!-- レシピの設定 -->
 
-<div class="seisansya contents" id="seisansya"><!-- 生産者の声ここから -->
+<div class="seisansya contents fadein" id="seisansya"><!-- 生産者の声ここから -->
 <h2><img src="font-hannari/seisansyanokoe-moji.png" alt="生産者の声"></h2>
 <p>苺と共に人生を歩んできた匠が丹精込めて作る、それが朝摘み苺の「いち娘」</p>
 
@@ -97,7 +97,7 @@
 <div class="kasane"><!-- 生産者画像重ね部分ここから -->
 <div class="seisansya-kome"><!-- 生産者コメントここから -->
 
-<img class="ojichan" src="images/ojichan.jpg" alt="生産者の顔写真です。">
+<div class="jiji"><img class="ojichan" src="images/ojichan.jpg" alt="生産者の顔写真です。"></div>
 
 <p>苺農家に生まれ、栽培に関わること３０年。<br>
 知り得た技術を広めるために、地域の苺農家の指導員として活動をしてきました。<br>
@@ -110,7 +110,7 @@
 
 </div><!-- 生産者の声ここまで -->
 
-<div class="instagram contents" id="instagram"><!-- インスタここから -->
+<div class="instagram contents fadein" id="instagram"><!-- インスタここから -->
 <h2><i class="fab fa-instagram-square"></i><img src="font-hannari/Instagram-moji.png" alt="Instagram"></h2>
 
   <div class="toukou"><!-- インスタの投稿画像の挿入ここから -->
@@ -123,7 +123,7 @@
   </div><!-- インスタの投稿画像の挿入ここまで -->
 </div><!-- インスタここまで -->
 
-<div class="kounyuu contents" id="kounyuu"><!-- 購入コンテンツここから -->
+<div class="kounyuu contents fadein" id="kounyuu"><!-- 購入コンテンツここから -->
 
 <img src="images/banner2.jpg" class="contents" alt="お買い得情報のバナーです。">
 

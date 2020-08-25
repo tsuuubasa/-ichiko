@@ -60,12 +60,20 @@
   border: solid 0.75px #707070;
 }
 
+
+
 .ojichan {
   position: absolute;
   bottom: 330px;
   right: 190px;
   width: 185px;
   z-index: 50;
+  display: block;
+  transition: 0.5s;
+}
+
+.ojichan:hover {
+  transform: scale(1.1, 1.1);
 }
 
 /*インスタの設定*/
@@ -123,5 +131,17 @@ footer .logo-xs{
   color: #fff;
   text-align: center;
   padding-top: 15px
+}
+
+/*スクロールフェイドインの設定*/
+.fadein {
+  opacity: 0;
+  transform : translate(0, 0px);
+  transition : all 3200ms;
+}
+
+.fadein.scrollin{
+  opacity: 1;
+  transform: translate(0, 0);
 }
 
