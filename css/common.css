@@ -134,7 +134,7 @@ body {
 /*レシピの設定*/
 .recipe {
   background-color: #E2D4D1;
-  width: 100vw
+  width: 100vw;
 }
 
 .recipe h2 {
@@ -209,7 +209,7 @@ body {
 
 /*購入コンテンツの設定*/
 .kounyuu {
-  padding-top: 200px;
+  padding-top: 100px;
   height: 900px
 }
 
