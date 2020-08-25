@@ -1,0 +1,288 @@
+@charset "UTF-8";
+
+body {
+  margin: 0 auto;
+}
+
+.contents {
+  font-family: 'Noto Serif JP', serif;
+}
+
+.contents p {
+  color: #644D46;
+}
+
+.contents h2 {
+  font-size: 25px;
+  color: #644D46;
+  margin: 0;
+}
+
+.contents h3 {
+  color: #644D46;
+  margin-bottom: 0;
+}
+
+/*おじいちゃん設定*/
+.seisansya {
+  text-align: center
+}
+
+.ojichan {
+  border-radius: 50%;
+  width: 185px;
+}
+
+/*メニューバーの設定*/
+.menu {
+  background-color: #fff;
+  width: 100vw;
+  margin: 0 auto;
+  position: fixed;
+  text-align: center;
+  z-index: 100
+  }
+
+.logo-s {
+  width: 200px;
+  margin: 22px auto 0 auto;
+}
+
+.menu i {
+  color: #707070;
+  margin: 20px 20px 0 0;
+  font-size: 14px;
+  border: solid 2px #707070;
+  padding: 9px;
+}
+
+.menu ul {
+  display: flex;
+  justify-content: space-around;
+  width: 800px;
+  margin: 34px auto 23px auto;
+  padding: 0;
+}
+
+.menu li {
+  list-style: none;
+  border-left: solid 1px #707070;
+  width: 20%;
+}
+
+.menu li:last-child {
+  border-right: 0.75px solid #707070;
+}
+
+.menu a {
+  color: #644D46;
+  text-decoration: none;
+}
+
+.menu a:hover {
+  font-weight: bold
+}
+
+/*snsアイコン設定*/
+.fa-facebook-square {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.fa-instagram {
+  position: absolute;
+  right: 50px;
+  top: 0;
+}
+
+/*ファーストビューの設定*/
+.first-view {
+  margin: 190px 0 0 0;
+  width: 100vw;
+}
+
+/*いち娘とは 設定*/
+.what-ichiko {
+  padding-top: 205px;
+  padding-bottom: 160px;
+  text-align: center;
+}
+
+.what-ichiko h2 img {
+  width: 120px
+}
+
+.what-ichiko p {
+  width: 800px;
+  font-size: 14px;
+  margin: 23px auto;
+}
+
+.setsumei {
+  margin: 0;
+  border: solid 1px #000;
+}
+
+/*レシピの設定*/
+.recipe {
+  background-color: #E2D4D1;
+  width: 100vw
+}
+
+.recipe h2 {
+  text-align: center;
+}
+
+.recipe h2 img {
+  text-align: center;
+  width: 70px;
+}
+
+.recipe p {
+  color: #644D46;
+  text-align: center;
+}
+
+.recipe-box {
+  display: flex;
+  justify-content: space-around;
+  width: 800px;
+  margin: 0 auto;
+}
+
+/*レシピボックス内*/
+.re-box-in {
+  width: 33.3333%;
+}
+
+.re-box-in h3 img {
+  width: 275px;
+}
+
+.re-box-in p {
+  margin-top: 5px;
+  font-size: 15px;
+  text-align: left;
+}
+
+.salad {
+  margin: 0 68px;
+}
+
+/*instagramの設定*/
+.instagram {
+  width: 100vw;
+  background-color: #E2D4D1;
+}
+
+.instagram h2 {
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.instagram h2 i {
+  margin-right: 10px;
+  font-size: 45px;
+}
+
+.instagram h2 img {
+  width: 120px;
+}
+
+.toukou {
+  width: 800px;
+  margin: 25px auto 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 25px;
+  grid-template-rows: 250px 250px;
+}
+
+/*購入コンテンツの設定*/
+.kounyuu {
+  padding-top: 200px;
+  height: 900px
+}
+
+.pkg {
+  position: relative;
+  margin-top: 300px
+}
+
+.pkg th {
+  font-weight: 200;
+  padding-right: 20px
+}
+
+.taka-pkg {
+  display: flex;
+  position: absolute;
+  top: -250px;
+  z-index: 20
+}
+
+.yasu-pkg {
+  display: flex;
+  position: absolute;
+  left: 180px;
+  top: 10px
+}
+
+.taka-pkg img {
+}
+
+.online {
+  float: right;
+  padding: 10px 10px;
+  font-size: 20px;
+  border: solid 2px #707070;
+  border-radius: 30px;
+  background-color: #fff;
+  position: absolute;
+  bottom: -300px;
+  right: 0;
+  font-weight: 200;
+  color: #707070;
+}
+
+.online i {
+  font-size: 20px;
+  margin-right: 20px;
+}
+
+.online a {
+  text-decoration: none;
+  color: #707070;
+}
+
+.online a:visited {
+  color: #707070;
+}
+
+.pkg span {
+  padding: 20px;
+  text-decoration: none;
+}
+
+/*トップへ戻るボタンの設定*/
+.go-top {
+  width: 60px;
+  height: 60px;
+  text-align: center;
+  background-color: #644D46;
+  margin-left: 10px;
+  color: #fff;
+  border-radius: 5px;
+  float: right
+}
+
+.go-top i {
+  margin-top: 10px
+}
+
+.footer-in a {
+  padding: 10px;
+  text-decoration: none;
+}

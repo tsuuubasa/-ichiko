@@ -1,0 +1,126 @@
+@charset "UTF-8";
+
+
+/*コンテンツの中央設定*/
+.contents {
+  width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*バナー　後で変更*/
+.banner {
+  width: 960px;
+  margin: 50px auto auto auto;
+}
+
+/*レシピの設定*/
+.recipe {
+  padding-top: 200px;
+  padding-bottom: 100px;
+}
+
+/*マーカー線の設定*/
+.re-box-in strong {
+  background: linear-gradient(transparent 50%,#F6E3C5 0%)
+}
+
+/*生産者の声の設定*/
+.seisansya {
+  position: relative;
+  color: #644D46;
+  margin-bottom: 200px
+}
+
+.seisansya h2 {
+  font-weight: 100;
+  font-size: 25px;
+  padding-top: 200px
+}
+
+.kasane {
+  position: absolute;
+  bottom: -80px;
+  right: 30px;
+}
+
+.seisansya-kome {
+  position: relative;
+  width: 412px;
+}
+
+.seisansya-kome p {
+  width: 341px;
+  position: absolute;
+  bottom: 70px;
+  right: 80px;
+  padding: 60px 25px 16px 28px;
+  background-color: rgba(255,255,255,0.75);
+  border: solid 0.75px #707070;
+}
+
+.ojichan {
+  position: absolute;
+  bottom: 300px;
+  right: 190px;
+  width: 185px;
+  z-index: 50;
+}
+
+/*インスタの設定*/
+.instagram {
+  padding-top: 200px;
+  padding-bottom: 100px;
+}
+
+/*購入カテゴリーの設定*/
+.pkg {
+  margin-top: 52px;
+  
+}
+
+.pkg table {
+  padding-left: 50px;
+  padding-top: 42px;
+}
+
+.pkg img {
+  width: 300px;
+  height: 300px;
+}
+
+
+
+/*フッターの設定*/
+footer {
+  background-color: #E2D4D1;
+  padding: 50px 0;
+}
+
+.footer-in ul {
+  list-style-type: none;
+  margin:0;
+  width: 70%;
+}
+
+.footer-in {
+  width: 800px;
+  margin: 0 auto;
+  display: flex;
+  
+}
+
+footer .logo-xs{
+  width: 145px;
+  height: 45px;
+  margin-right: 30px;
+}
+
+.footer-bottom {
+  height: 45px;
+  background-color: #644D46;
+  color: #fff;
+  text-align: center;
+  padding-top: 15px
+}
+
