@@ -307,6 +307,11 @@ body {
   text-decoration: none;
 }
 
+/*トグルボタン*/
+#menubtn {
+		  display: none;
+}
+
 /*########## 960px以下 ##########*/
 @media (max-width: 960px){
 
@@ -437,7 +442,8 @@ footer {
           cursor:pointer;
 		  border: none;
           background-color: #fff;
-		  float: right}
+		  float: right;
+		  display: block}
 
 #menubtn:focus {outline: none}
 
