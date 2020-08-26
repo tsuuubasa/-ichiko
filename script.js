@@ -25,3 +25,11 @@ $(function(){
   return false;
   });
 });
+
+$(function(){
+
+  $("#menubtn").click(function(){
+    $("#list").slideToggle();
+  });
+
+});

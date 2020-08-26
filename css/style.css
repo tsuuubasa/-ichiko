@@ -221,6 +221,58 @@ footer .logo-xs{
 /*########## 640px以下 ##########*/
 @media (max-width: 640px){
 
+.banner {
+  width: 320px
+}
+
+.banner img {
+  width:320px;
+}
+
+.ojichan {
+  bottom: 200px;
+  right: 50px;
+  width: 100px
+}
+
+.seisansya {
+  padding-bottom: 200px
+}
+
+.seisansya-kome p {
+  width: 200px;
+  font-size: 12px;
+  bottom: -80px;
+  right: 0;
+}
+
+/*フッターの設定*/
+
+.footer-in ul {
+  list-style-type: none;
+  margin:0;
+  width: 50%;
+}
+
+.footer-in li {
+  font-size: 11px
+}
+
+.footer-in {
+  width: 320px;
+  
+}
+
+footer .logo-xs{
+  width: 60px;
+  height: 20px;
+  margin-right: 10px;
+}
+
+.footer-bottom {
+  height: 25px;
+  padding-top: 15px
+}
 
 
 }

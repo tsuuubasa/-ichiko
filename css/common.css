@@ -129,7 +129,6 @@ body {
 
 .setsumei {
   margin: 0;
-  border: solid 1px #000;
 }
 
 /*レシピの設定*/
@@ -409,9 +408,6 @@ footer {
 .toukou {
   width: 640px;
   margin: 15px auto 0 auto;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  gap: 25px;
   grid-template-rows: 180px 180px;
 }
 
@@ -428,6 +424,190 @@ footer {
 /*########## 640px以下 ##########*/
 @media (max-width: 640px){
 
+.menu {
+  border-bottom: 0.5px solid #CFCFCF;
+}
 
+#top {
+  margin-bottom: 0;
+}
+
+/*トグルボタン*/
+#menubtn {margin:0px;
+          cursor:pointer;
+		  border: none;
+          background-color: #fff;
+		  float: right}
+
+#menubtn:focus {outline: none}
+
+#menubtn span {display: inline-block;
+               text-indent: -9999px}
+	
+#menubtn i {
+  font-size: 15px;
+  padding: 3px;
+  margin: 0
+}
+
+.navmenu {
+}
+	
+#list {display: none}
+
+
+.menu .fa-facebook-square{
+  font-size: 18px
+}
+
+.menu .fa-instagram-square{
+  font-size: 18px
+}
+
+.menu ul {
+  width: 100vw;
+  display: block;
+  text-align: center
+}
+
+.menu li {
+  font-size: 12px;
+  border: none;
+  border-bottom: dotted 1px #644D46;
+  width: 100%;
+  padding-bottom: 5px;
+  padding-top: 5px
+}
+
+.menu li:last-child {
+  border-right: none
+}
+
+.contents {
+  width: 100vw
+}
+
+#what-ichiko .setsumei {
+  width: 320px;
+}
+
+#what-ichiko p {
+  width: 320px;
+  font-size: 10px
+}
+
+.recipe p {
+  width: auto;
+  margin: auto;
+  margin-bottom: 30px
+}
+
+.recipe-box {
+  width: 320px;
+}
+
+.recipe-box p {
+  font-size: 11px
+}
+
+.recipe-box {
+  display: block
+}
+
+.re-box-in {
+  text-align: center;
+  width: 320px;
+  margin-bottom: 30px
+}
+
+.re-box-in p {
+  text-align: center;
+}
+
+.re-box-in .re-box-in-img {
+  width: 170px;
+  height: 170px
+}
+
+.salad {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.bun h3 {
+  margin-top: 0
+}
+
+.bun h3 img {
+  width: 200px
+}
+
+.background {
+  width: 320px
+}
+
+.toukou {
+  width: 320px;
+  margin: 10px auto 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 10px;
+  grid-template-rows: 100px 100px;
+}
+
+.toukou img {
+  width: 100px
+}
+
+.yasu-pkg,.taka-pkg {
+  display: block;
+  position: static;
+  text-align: center
+}
+
+.pkg img {
+  width: 200px;
+  height: auto
+}
+
+.kounyuu {
+  height: auto;
+}
+
+.pkg {
+  margin-top: 100px;
+  height: auto;
+  padding-bottom: 120px
+}
+
+.pkg table {
+  font-size: 10px;
+  margin-bottom: 20px;
+  margin-top: 0
+}
+
+.yasu-pkg[table],
+.taka-pkt[table] {
+  text-align: center
+}
+
+.online {
+  font-size: 15px;
+  border-radius: 30px;
+  position: static;
+  margin-top: 20px;
+}
+
+/*トップへ戻るボタンの設定*/
+.go-top {
+  width: 45px;
+  height: 45px;
+  margin-left: 5px;
+  border-radius: 5px;
+}
+
+.go-top i {
+  margin-top: 5px;
+}
 
 }
