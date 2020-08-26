@@ -1,5 +1,5 @@
 @charset "UTF-8";
-
+/*全体の設定*/
 body {
   margin: 0 auto;
 }
@@ -49,16 +49,15 @@ body {
 }
 
 .menu i {
-  color: #707070;
-  margin: 20px 20px 0 0;
-  font-size: 14px;
-  border: solid 2px #707070;
-  padding: 9px;
+  color: #858585;
+  margin: 20px 40px 0px 20px;
+  font-size: 45px;
   transition: color 1s;
 }
 
 .menu i:hover {
-  font-weight: bold
+  color:#644D46
+  
 }
 
 .menu ul {
@@ -95,12 +94,14 @@ body {
   position: absolute;
   right: 0;
   top: 0;
+  font-size: 45px;
 }
 
-.fa-instagram {
+.menu .fa-instagram-square {
   position: absolute;
   right: 50px;
   top: 0;
+  font-size: 45px;
 }
 
 /*ファーストビューの設定*/
@@ -220,7 +221,8 @@ body {
 
 .pkg th {
   font-weight: 200;
-  padding-right: 20px
+  padding-right: 20px;
+  float: left;
 }
 
 .taka-pkg {
@@ -235,9 +237,6 @@ body {
   position: absolute;
   left: 180px;
   top: 10px
-}
-
-.taka-pkg img {
 }
 
 .online {
@@ -307,4 +306,124 @@ body {
 .footer-in a {
   padding: 10px;
   text-decoration: none;
+}
+
+/*########## 960px以下 ##########*/
+@media (max-width: 960px){
+
+.setsumei {
+  width: 680px
+}
+
+#what-ichiko p {
+  width: 640px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 13px
+}
+
+.salad {
+  margin: 0 10px;
+}
+
+.re-box-in h3 img {
+  width: 200px;
+}
+
+.recipe-box {
+  width: 720px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.re-box-in {
+  width: 210px
+}
+
+.recipe p {
+  font-size: 13px
+}
+
+.re-box-in-img {
+  width: 200px
+}
+
+.yasu-pkg {
+  left: 130px;
+  top: -30px
+}
+
+.online {
+  font-size: 15px;
+}
+
+.online i {
+   font-size: 15px
+}
+
+.pkg {
+  font-size: 14px
+}
+
+.pkg table {
+  padding-left: 15px
+}
+
+footer {
+  font-size: 14px
+}
+
+}
+
+/*########## 800px以下 ##########*/
+@media (max-width: 800px){
+.menu ul {
+  width: 640px
+}
+
+.menu li {
+  font-size: 14px
+}
+
+.menu .fa-facebook-square{
+  font-size: 30px
+}
+
+.menu .fa-instagram-square{
+  font-size: 30px
+}
+
+
+#what-ichiko .setsumei {
+  width: 630px
+}
+
+.recipe-box {
+  width: 640px;
+}
+
+.recipe-box p {
+  font-size: 12px
+}
+
+.toukou {
+  width: 640px;
+  margin: 15px auto 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 25px;
+  grid-template-rows: 180px 180px;
+}
+
+.item img {
+  width: 180px
+}
+
+}
+
+/*########## 640px以下 ##########*/
+@media (max-width: 640px){
+
+
+
 }

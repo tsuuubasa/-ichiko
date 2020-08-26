@@ -145,3 +145,81 @@ footer .logo-xs{
   transform: translate(0, 0);
 }
 
+/*########## 960px以下 ##########*/
+@media (max-width: 960px){
+.contents {
+  width: 720px;
+}
+
+.banner {
+  width: 600px;
+  margin: 30px auto 0 auto;
+}
+
+.banner img {
+  width: 600px;
+}
+
+.background {
+  width: 720px
+}
+
+.pkg img {
+  width: 250px;
+  height: 250px;
+}
+
+.seisansya p {
+  font-size: 14px
+}
+
+}
+
+/*########## 800px以下 ##########*/
+@media (max-width: 800px){
+.contents {
+  width: 640px;
+}
+
+.banner {
+  width: 540px;
+  margin: 30px auto 0 auto;
+}
+
+.banner img {
+  width: 540px;
+}
+
+.background {
+  width: 600px
+}
+
+.pkg img {
+  width: 200px;
+  height: 250px;
+}
+
+.seisansya p {
+  font-size: 14px
+}
+
+.seisansya-kome p {
+  font-size: 13px
+}
+
+.ojichan {
+  bottom: 290px
+}
+
+.footer-in {
+  width: 640px
+}
+
+}
+
+/*########## 640px以下 ##########*/
+@media (max-width: 640px){
+
+
+
+}
