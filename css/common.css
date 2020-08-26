@@ -236,12 +236,12 @@ body {
   display: flex;
   position: absolute;
   left: 180px;
-  top: 10px
+  top: -40px
 }
 
 .online {
   float: right;
-  padding: 5px 0px 7px 0px;
+  padding: 5px 0px 5px 0px;
   font-size: 20px;
   border: solid 2px #707070;
   border-radius: 30px;
@@ -417,6 +417,10 @@ footer {
 
 .item img {
   width: 180px
+}
+
+.instagram h2 {
+  width: 640px
 }
 
 }
