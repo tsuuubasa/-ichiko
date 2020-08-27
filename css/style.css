@@ -150,7 +150,6 @@ footer .logo-xs{
 }
 
 /*読み込み時*/
-/*
 .start {
 	background: #FFF;
 	position: fixed;
@@ -168,7 +167,7 @@ footer .logo-xs{
 	display: none;
 	z-index: 9999;
 	width: 800px;
-}*/
+}
 
 /*########## 960px以下 ##########*/
 @media (max-width: 960px){
