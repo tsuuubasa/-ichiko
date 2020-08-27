@@ -335,6 +335,10 @@ body {
 		  display: none;
 }
 
+.wrap {
+  overflow: hidden
+}
+
 /*########## 960px以下 ##########*/
 @media (max-width: 960px){
 
@@ -430,7 +434,7 @@ footer {
 }
 
 .recipe-box p {
-  font-size: 12px
+  font-size: 14px
 }
 
 .toukou {
@@ -451,6 +455,13 @@ footer {
 
 /*########## 640px以下 ##########*/
 @media (max-width: 640px){
+body{
+  width: 100vw
+}
+
+.contents {
+  width: 100vw
+}
 
 .menu {
   width: 100vw;
@@ -522,13 +533,10 @@ footer {
   with: 100vw
 }
 
-#what-ichiko .setsumei {
-  width: 320px;
-}
-
 #what-ichiko p {
-  width: 320px;
-  font-size: 10px
+  width: 80vw;
+  margin: auto;
+  font-size: 14px
 }
 
 #what-ichiko #setsumei {
@@ -550,6 +558,9 @@ footer {
   width: 100vw;
 }
 
+.recipe {
+  width: 100vw
+}
 
 .recipe p {
   width: auto;
@@ -557,7 +568,7 @@ footer {
   margin-right: 10%;
   margin-top: 0;
   margin-bottom: 30px;
-  font-size: 11px
+  font-size: 14px
 }
 
 .recipe-box {
@@ -569,22 +580,39 @@ footer {
 }
 
 .recipe-box {
-  display: block
+  display: block;
+  width: 100vw
 }
 
 .re-box-in {
   text-align: center;
-  width: 320px;
+  width: 100%;
   margin-bottom: 30px
 }
 
 .re-box-in p {
   text-align: center;
+  width: 50vw;
+  margin: auto;
+  font-size: 13px
 }
 
 .re-box-in .re-box-in-img {
-  width: 170px;
-  height: 170px
+  width: 50vw;
+  height: auto
+}
+
+.re-box-in h3 img {
+  width: 70vw;
+  height: auto
+}
+
+.seisansya {
+  width: 100vw
+}
+
+.seisansya .background {
+  width: 80vw
 }
 
 .salad {
@@ -600,21 +628,17 @@ footer {
   width: 200px
 }
 
-.background {
-  width: 320px
-}
-
 .toukou {
-  width: 320px;
+  width: 100vw;
   margin: 10px auto 0 auto;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  gap: 10px;
-  grid-template-rows: 100px 100px;
+  grid-template-columns: 1fr 1fr;
+  gap: 100px;
+  grid-template-rows: 200px 200px 200px;
 }
 
 .toukou img {
-  width: 100px
+  width: 100%;
 }
 
 .yasu-pkg,.taka-pkg {
@@ -624,7 +648,7 @@ footer {
 }
 
 .pkg img {
-  width: 200px;
+  width: 40vw;
   height: auto
 }
 
@@ -657,17 +681,17 @@ footer {
   border-radius: 30px;
   position: static;
   margin-top: 20px;
-  padding: 0;
+  padding: 5px 0px;
   float: none;
-  width: 70vw;
-  margin: auto
-}
-
-online a {
-padding: 0
+  width: 50vw;
+  margin-left: 30%
 }
 
 /*トップへ戻るボタンの設定*/
+
+#foot img {
+  display: none
+}
 .go-top {
   width: 45px;
   height: 45px;
