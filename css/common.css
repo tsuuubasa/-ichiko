@@ -459,6 +459,10 @@ body{
   width: 100vw
 }
 
+.phone-first {
+  padding-top: 100px
+}
+
 .contents {
   width: 100vw
 }
@@ -472,13 +476,22 @@ body{
   margin-bottom: 0;
 }
 
+.menu .fa-facebook-square {
+  display: none
+}
+
+.menu .fa-instagram-square{
+  display: none
+}
+
 /*トグルボタン*/
-#menubtn {margin:0px;
-          cursor:pointer;
+#menubtn {cursor:pointer;
 		  border: none;
           background-color: #fff;
-		  float: right;
-		  display: block}
+		  display: block;
+		  padding: 0;
+		  margin: auto
+		  }
 
 #menubtn:focus {outline: none}
 
@@ -493,6 +506,9 @@ body{
 	
 #list {display: none}
 
+.menu {
+  padding: 10px 0
+}
 
 .menu .fa-facebook-square{
   font-size: 18px
@@ -505,7 +521,7 @@ body{
 .menu ul {
   width: 100vw;
   display: block;
-  text-align: center
+  text-align: center;
 }
 
 .menu li {
@@ -514,7 +530,8 @@ body{
   border-bottom: dotted 1px #644D46;
   width: 100%;
   padding-bottom: 5px;
-  padding-top: 5px
+  padding-top: 5px;
+  margin-top: 10px
 }
 
 .menu li:last-child {
@@ -536,7 +553,7 @@ body{
 #what-ichiko p {
   width: 80vw;
   margin: auto;
-  font-size: 14px
+  font-size: 12px
 }
 
 #what-ichiko #setsumei {
@@ -628,6 +645,10 @@ body{
   width: 200px
 }
 
+.ojichan {
+  width: 50vw
+}
+
 .toukou {
   width: 100vw;
   margin: 10px auto 0 auto;
@@ -683,8 +704,11 @@ body{
   margin-top: 20px;
   padding: 5px 0px;
   float: none;
-  width: 50vw;
   margin-left: 30%
+}
+
+.online span {
+  width: 70vw
 }
 
 /*トップへ戻るボタンの設定*/

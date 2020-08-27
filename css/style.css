@@ -318,5 +318,12 @@ footer .logo-xs{
   padding-top: 15px
 }
 
+.start p {
+  width: 300px;
+}
+
+.start p img {
+  width: 300px
+}
 
 }
