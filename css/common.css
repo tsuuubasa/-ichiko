@@ -38,14 +38,29 @@ body {
   background-color: #fff;
   width: 100vw;
   margin: 0 auto;
+  padding-top: 30px;
+  padding-bottom: 30px;
   position: fixed;
   text-align: center;
+  transition: .5s;
   z-index: 100
   }
 
+/*スクロール後*/
+.menu.transform {
+  background-color: fff;
+  opacity: 0.9;
+  padding: 0
+}
+
+.menu h1 {
+  margin-top: 0px;
+  margin-bottom: 0;
+}
+
 .logo-s {
   width: 200px;
-  margin: 22px auto 0 auto;
+  margin: 0 auto;
 }
 
 .menu i {
@@ -64,7 +79,7 @@ body {
   display: flex;
   justify-content: space-around;
   width: 800px;
-  margin: 34px auto 23px auto;
+  margin: 10px auto 0 auto;
   padding: 0;
 }
 
@@ -110,7 +125,15 @@ body {
   width: 100vw;
 }
 
+.phone-first {
+  display: none
+}
+
 /*いち娘とは 設定*/
+.phone-towa {
+  display: none
+}
+
 .what-ichiko {
   padding-top: 205px;
   padding-bottom: 160px;
@@ -430,6 +453,7 @@ footer {
 @media (max-width: 640px){
 
 .menu {
+  width: 100vw;
   border-bottom: 0.5px solid #CFCFCF;
 }
 
@@ -454,9 +478,6 @@ footer {
   font-size: 15px;
   padding: 3px;
   margin: 0
-}
-
-.navmenu {
 }
 	
 #list {display: none}
@@ -493,6 +514,14 @@ footer {
   width: 100vw
 }
 
+.pc-view {
+  display: none;
+}
+
+.first-view {
+  with: 100vw
+}
+
 #what-ichiko .setsumei {
   width: 320px;
 }
@@ -502,10 +531,33 @@ footer {
   font-size: 10px
 }
 
+#what-ichiko #setsumei {
+  display: none;
+}
+
+.pc-towa {
+  display: none
+}
+
+.phone-first {
+  display: block;
+  width:  100vw;
+  margin: auto
+}
+
+.phone-towa {
+  display: block;
+  width: 100vw;
+}
+
+
 .recipe p {
   width: auto;
-  margin: auto;
-  margin-bottom: 30px
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 0;
+  margin-bottom: 30px;
+  font-size: 11px
 }
 
 .recipe-box {
@@ -568,7 +620,7 @@ footer {
 .yasu-pkg,.taka-pkg {
   display: block;
   position: static;
-  text-align: center
+  text-align: center;
 }
 
 .pkg img {
@@ -588,8 +640,11 @@ footer {
 
 .pkg table {
   font-size: 10px;
+  width: 80vw;
   margin-bottom: 20px;
-  margin-top: 0
+  margin-top: 0;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .yasu-pkg[table],
@@ -598,17 +653,24 @@ footer {
 }
 
 .online {
-  font-size: 15px;
+  font-size: 13px;
   border-radius: 30px;
   position: static;
   margin-top: 20px;
+  padding: 0;
+  float: none;
+  width: 70vw;
+  margin: auto
+}
+
+online a {
+padding: 0
 }
 
 /*トップへ戻るボタンの設定*/
 .go-top {
   width: 45px;
   height: 45px;
-  margin-left: 5px;
   border-radius: 5px;
 }
 

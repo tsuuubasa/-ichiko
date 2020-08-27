@@ -14,6 +14,10 @@
   margin: 50px auto auto auto;
 }
 
+.phone-banner {
+  display: none;
+}
+
 /*レシピの設定*/
 .recipe {
   padding-top: 200px;
@@ -145,6 +149,27 @@ footer .logo-xs{
   transform: translate(0, 0);
 }
 
+/*読み込み時*/
+/*
+.start {
+	background: #FFF;
+	position: fixed;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	z-index: 9000;
+}
+.start p {
+	position: fixed;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	display: none;
+	z-index: 9999;
+	width: 800px;
+}*/
+
 /*########## 960px以下 ##########*/
 @media (max-width: 960px){
 .contents {
@@ -221,8 +246,27 @@ footer .logo-xs{
 /*########## 640px以下 ##########*/
 @media (max-width: 640px){
 
+.contents {
+  width: 100vw
+}
+
 .banner {
-  width: 320px
+  width: 90vw;
+  
+}
+
+.banner .phone-banner {
+  width: 90vw;
+  margin-left: auto;
+  margin-right: auto
+}
+
+.pc-banner {
+  display: none;
+}
+
+.phone-banner {
+display: block;
 }
 
 .banner img {

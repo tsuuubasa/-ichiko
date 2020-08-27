@@ -33,3 +33,30 @@ $(function(){
   });
 
 });
+
+/*$(function() {
+	setTimeout(function(){
+		$('.start p').fadeIn(1600);
+	},300); //0.3秒後にロゴをフェードイン!
+	setTimeout(function(){
+		$('.start').fadeOut(500);
+	},4000); //2.5秒後にロゴ含め真っ白背景をフェードアウト！
+});*/
+
+$(function(){
+  var _window = $(window),
+    _header = $('.menu'),
+    heroBottom;
+ 
+_window.on('scroll',function(){
+    heroBottom = $('.menu').height();
+    if(_window.scrollTop() > heroBottom){
+        _header.addClass('transform');   
+    }
+    else{
+        _header.removeClass('transform');   
+    }
+});
+ 
+_window.trigger('scroll');
+})
