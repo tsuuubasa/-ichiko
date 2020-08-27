@@ -241,6 +241,14 @@ footer .logo-xs{
   width: 640px
 }
 
+.start p {
+  width: 300px;
+}
+
+.start p img {
+  width: 300px
+}
+
 }
 
 /*########## 640px以下 ##########*/
@@ -320,14 +328,6 @@ footer .logo-xs{
 .footer-bottom {
   height: 25px;
   padding-top: 15px
-}
-
-.start p {
-  width: 300px;
-}
-
-.start p img {
-  width: 300px
 }
 
 }

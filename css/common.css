@@ -247,6 +247,10 @@ body {
   float: left;
 }
 
+.pkg td br {
+  display: none;
+}
+
 .taka-pkg {
   display: flex;
   position: absolute;
@@ -449,6 +453,10 @@ footer {
 
 .instagram h2 {
   width: 640px
+}
+
+.pkg td br {
+  display: block;
 }
 
 }
@@ -686,6 +694,10 @@ body{
 
 .pkg td {
   text-align: left
+}
+
+.pkg th {
+  padding: 0
 }
 
 .pkg table {
