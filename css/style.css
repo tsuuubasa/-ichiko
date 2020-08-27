@@ -275,8 +275,12 @@ display: block;
 
 .ojichan {
   bottom: 200px;
-  right: 50px;
-  width: 100px
+  left: 15%
+}
+
+.seisansya-kome p {
+  left: 10%;
+  width: 40vw
 }
 
 .seisansya {
