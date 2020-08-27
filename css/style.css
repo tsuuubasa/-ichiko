@@ -249,6 +249,10 @@ footer .logo-xs{
   width: 300px
 }
 
+.pkg table br {
+  display: block
+}
+
 }
 
 /*########## 640px以下 ##########*/
