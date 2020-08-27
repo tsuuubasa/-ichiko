@@ -651,11 +651,11 @@ body{
 
 .toukou {
   width: 100vw;
-  margin: 10px auto 0 auto;
+  margin: 0 1%;
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 100px;
-  grid-template-rows: 200px 200px 200px;
+  grid-template-columns: 0.5fr 0.5fr;
+  gap: 15%;
+  grid-template-rows: 25% 25% 25%;
 }
 
 .toukou img {
@@ -683,13 +683,18 @@ body{
   padding-bottom: 120px
 }
 
+.pkg td {
+  text-align: left
+}
+
 .pkg table {
   font-size: 10px;
-  width: 80vw;
+  width: 60vw;
   margin-bottom: 20px;
   margin-top: 0;
   margin-left: auto;
   margin-right: auto;
+  text-align: center
 }
 
 .yasu-pkg[table],
