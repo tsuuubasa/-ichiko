@@ -336,7 +336,7 @@ body {
 
 /*トグルボタン*/
 #menubtn {
-		  display: none;
+  display: none;
 }
 
 .wrap {
@@ -511,7 +511,7 @@ body{
   padding: 3px;
   margin: 0
 }
-	
+
 #list {display: none}
 
 .menu {
@@ -555,7 +555,7 @@ body{
 }
 
 .first-view {
-  with: 100vw
+  width: 100vw
 }
 
 #what-ichiko p {
